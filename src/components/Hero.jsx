@@ -1,9 +1,12 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 
 const Hero = () => {
+
+
   return (
     <>
+
       <div className="w-full h-[100vh] bg-[url(/assets/background.png)] flex flex-col justify-center items-center bg-cover bg-no-repeat bg-center">
         <Navbar />
         <div className="h-full w-full flex justify-center item-center  text-white ">
@@ -19,7 +22,9 @@ const Hero = () => {
               I'm a fronted developer specializing in building and even
               designing expectational digital expirience.
             </p>
-            <button className="px-1 w-50 h-10 border border-green-500 text-green-500 hover:bg-green-500 hover:text-white rounded-sm">Download Resume</button>
+            <button className="px-1 w-50 h-10 border border-green-500 text-green-500 hover:bg-green-500 hover:text-white rounded-sm">
+              Download Resume
+            </button>
           </div>
         </div>
       </div>
