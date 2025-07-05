@@ -1,3 +1,4 @@
+import About from "./components/About";
 import CursorGlow from "./components/CursorGlow"
 import Hero from "./components/Hero"
 import Services from "./components/Services";
@@ -11,6 +12,7 @@ function App() {
     <div className="bg-[#0a192f] ">
       <Hero />
       <Services />
+
     </div>
   );
 }
