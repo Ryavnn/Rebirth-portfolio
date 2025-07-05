@@ -10,7 +10,7 @@ const ContactUs = () => {
         );
     }
   return (
-    <div className="w-full h-screen flex justify-center items-center ">
+    <div className="w-full h-screen flex justify-center items-center " id='contact'>
       <div className="w-[90%] h-[90%] p-5 flex justify-center items-center bg-[#8892b0] rounded-xl">
         <div className="h-[90%] w-120">
           <h1 className="text-[1.8rem] font-bold text-white ">Get in touch</h1>

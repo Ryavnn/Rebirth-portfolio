@@ -3,7 +3,7 @@ import Image from "../assets/portfolio_malo.jpg";
 
 const About = () => {
   return (
-    <div className="w-full min-h-screen flex justify-center items-center ">
+    <div className="w-full min-h-screen flex justify-center items-center " id="about">
       <div className="w-full md:w-[90%] h-[90%] p-1 md:p-5 flex flex-col ">
         <h1 className="text-white font-bold text-lg">
           * <span className="text-[#64ffda]">About me</span>
