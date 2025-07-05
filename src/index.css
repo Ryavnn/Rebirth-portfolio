@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+.services{
+  @apply w-100 h-60 bg-white/10 backdrop-blur rounded-xl shadow-sm p-4
+}
+.service-h1{
+  @apply text-white text-xl font-bold
+}
+.service-p{
+  @apply text-gray-400 mt-2
+}
+@theme{
+  --heading-color: white;
+
+}
