@@ -5,7 +5,7 @@ import { mdiWebCheck } from "@mdi/js";
 
 const Services = () => {
   return (
-    <div className="w-full h-[70vh] flex justify-center items-center ">
+    <div className="w-full min-h-[70vh] flex justify-center items-center ">
       <div className="w-[90%] h-[90%] p-5 flex flex-col">
         <h1 className="text-white font-bold text-lg">
           * <span className="text-[#64ffda]">Services</span>
