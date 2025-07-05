@@ -24,7 +24,7 @@ const Hero = () => {
               designing expectational digital expirience.
             </p>
             <a
-              href="/resume.pdf"
+              href="/tailwind.pdf"
               download
               className="px-4 w-[200px] h-10 flex items-center justify-center border border-[#64ffda] text-[#64ffda] hover:bg-[#64ffda] hover:text-gray-500 rounded-sm transition"
             >
