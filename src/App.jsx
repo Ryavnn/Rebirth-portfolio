@@ -12,7 +12,7 @@ function App() {
     <div className="bg-[#0a192f] ">
       <Hero />
       <Services />
-
+      <About />
     </div>
   );
 }

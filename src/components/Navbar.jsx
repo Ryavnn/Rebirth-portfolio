@@ -2,7 +2,7 @@
 const Navbar = () => {
   return (
     <>
-      <div className="w-[90%] md:w-[700px] h-20 bg-white/10 m-2 rounded-md flex justify-between items-center px-5 ">
+      <div className="w-[90%] md:w-[700px] h-20 bg-white/10 mt-1 rounded-md flex justify-between items-center px-5 ">
         <h1 className="text-xl text-white font-extrabold hidden md:flex">
           Njoroge.dev
         </h1>
