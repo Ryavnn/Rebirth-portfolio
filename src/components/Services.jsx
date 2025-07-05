@@ -11,7 +11,7 @@ const Services = () => {
           * <span className="text-[#64ffda]">Services</span>
         </h1>
         <p className="text-white font-bold text-2xl my-3">Here's how I can help your business grow</p>
-        <div className="w-full h-[80%] flex flex-col md:flex-row gap-5 mt-4">
+        <div className="w-full h-[80%] flex flex-col justify-center items-center md:flex-row gap-5 mt-4">
           <div className="services">
             <svg width="0" height="0">
               <defs>
