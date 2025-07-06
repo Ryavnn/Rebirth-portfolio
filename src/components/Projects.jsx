@@ -12,22 +12,22 @@ const Projects = () => {
         link: "https://restaurant-management-system-ruby-xi.vercel.app",
       },
       {
-        title: "Restaurant Management System",
+        title: "Flavour Fusion",
         description:
-          "Description of project 1 goes here. It was built using React and Flask.",
+          "Description of project 2 goes here. It was built using React and Flask.",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi88XhdL4bEyh-d6N1gndDZq-qrGLd8uALZQ&s",
-        techStack: ["React", "Tailwind", "Flask", "PostgreSQL"],
-        link: "https://restaurant-management-system-ruby-xi.vercel.app",
+        techStack: ["React", "Tailwind"],
+        link: "https://conven-build-blueprint.vercel.app/",
       },
       {
-        title: "Restaurant Management System",
+        title: "Conven Build Blueprint",
         description:
-          "Description of project 1 goes here. It was built using React and Flask.",
+          "Description of project 3 goes here. It was built using React and Flask.",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi88XhdL4bEyh-d6N1gndDZq-qrGLd8uALZQ&s",
         techStack: ["React", "Tailwind", "Flask", "PostgreSQL"],
-        link: "https://restaurant-management-system-ruby-xi.vercel.app",
+        link: "https://conven-build-blueprint.vercel.app/",
       },
       {
         title: "Restaurant Management System",
