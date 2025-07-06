@@ -6,7 +6,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="w-full md:h-[100vh] min-h-[70vh]  flex flex-col justify-center items-center bg-cover bg-no-repeat bg-center">
+      <div className="w-full md:h-[100vh] min-h-[70vh]  flex flex-col justify-center items-center bg-cover bg-no-repeat bg-center" id="hero">
         <Navbar />
         <div className="h-full w-full flex justify-center item-center  text-white ">
           <div className="w-[90%] h-[90%] p-5 flex flex-col justify-center items-center md:items-start  gap-5 rounded-lg text-center">

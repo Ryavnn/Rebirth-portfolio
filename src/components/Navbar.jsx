@@ -4,7 +4,7 @@ const Navbar = () => {
     <>
       <div className="w-[90%] md:w-[700px] h-20 bg-white/10 mt-1 rounded-md flex justify-between items-center px-5 fixed top-0 left-1/2 -translate-x-1/2 z-50 backdrop-blur-md">
         <h1 className="text-xl text-white font-extrabold hidden md:flex">
-          Njoroge.dev
+          <a href="#hero"> Njoroge.dev</a>
         </h1>
         <div className="w-full md:w-[65%] flex">
           <ul className="flex justify-evenly md:justify-between items-center w-full text-white text-lg">

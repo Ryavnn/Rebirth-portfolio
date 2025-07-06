@@ -9,6 +9,9 @@
 .service-p{
   @apply text-gray-400 mt-2
 }
+.tech-stack{
+  @apply text-sm text-gray-400 bg-white/10 backdrop-blur rounded-xl flex p-1
+}
 @theme{
   --heading-color: white;
 
