@@ -20,8 +20,8 @@ const Hero = () => {
               I build things for the web
             </h3>
             <p className="text-gray-300 md:text-left md:w-100 text-[1.2rem]">
-              I'm a fronted developer specializing in building and even
-              designing expectational digital expirience.
+              I'm a Fullstack developer specializing in building and even
+              designing excpetional digital expirience.
             </p>
             <a
               href="/tailwind.pdf"

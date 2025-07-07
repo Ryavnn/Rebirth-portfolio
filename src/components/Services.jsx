@@ -34,7 +34,7 @@ const Services = () => {
             <Icon path={mdiConsole} size={2} color="url(#icon-gradient)" />
             <h1 className="service-h1">Web Development</h1>
             <p className="service-p">
-              I build enganging, high-perfomance websites that capture your
+              I build engaging, high-perfomance websites that capture your
               brand's essence and drive meaningful user interactions.
             </p>
           </div>

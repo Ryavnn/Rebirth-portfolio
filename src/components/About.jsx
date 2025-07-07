@@ -49,7 +49,7 @@ const About = () => {
           <div className="w-full md:w-[50%] text-white flex justify-center items-center">
             <div className="w-[250px] h-[250px] overflow-hidden rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.25)]">
               <img
-                loading="lazy"
+                
                 src={Image}
                 alt="Service preview"
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
