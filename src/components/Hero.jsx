@@ -6,7 +6,10 @@ const Hero = () => {
 
   return (
     <>
-      <div className="w-full md:h-[100vh] min-h-[70vh]  flex flex-col justify-center items-center bg-cover bg-no-repeat bg-center" id="hero">
+      <div
+        className="w-full md:h-[100vh] min-h-[70vh]  flex flex-col justify-center items-center bg-cover bg-no-repeat bg-center"
+        id="hero"
+      >
         <Navbar />
         <div className="h-full w-full flex justify-center item-center  text-white ">
           <div className="w-[90%] h-[90%] p-5 flex flex-col justify-center items-center md:items-start  gap-5 rounded-lg text-center">
@@ -24,7 +27,7 @@ const Hero = () => {
               designing excpetional digital expirience.
             </p>
             <a
-              href="/tailwind.pdf"
+              href="/Ryan_Njoroge_Resume.pdf"
               download
               className="px-4 w-[200px] h-10 flex items-center justify-center border border-[#64ffda] text-[#64ffda] hover:bg-[#64ffda] hover:text-gray-500 rounded-sm transition"
             >
