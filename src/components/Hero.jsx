@@ -23,8 +23,8 @@ const Hero = () => {
               I build things for the web
             </h3>
             <p className="text-gray-300 md:text-left md:w-100 text-[1.2rem]">
-              I'm a Fullstack developer specializing in building and even
-              designing excpetional digital expirience.
+              I'm a Fullstack developer specializing in building and 
+              designing exceptional digital experience.
             </p>
             <a
               href="/Ryan_Njoroge_Resume.pdf"
