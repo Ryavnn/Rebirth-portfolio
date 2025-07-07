@@ -3,7 +3,10 @@ import Image from "../assets/portfolio_malo.jpg";
 
 const About = () => {
   return (
-    <div className="w-full min-h-screen flex justify-center items-center " id="about">
+    <div
+      className="w-full min-h-screen flex justify-center items-center "
+      id="about"
+    >
       <div className="w-full md:w-[90%] h-[90%] p-1 md:p-5 flex flex-col ">
         <h1 className="text-white font-bold text-lg">
           * <span className="text-[#64ffda]">About me</span>
@@ -46,6 +49,7 @@ const About = () => {
           <div className="w-full md:w-[50%] text-white flex justify-center items-center">
             <div className="w-[250px] h-[250px] overflow-hidden rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.25)]">
               <img
+                loading="lazy"
                 src={Image}
                 alt="Service preview"
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
