@@ -2,6 +2,7 @@ import React from "react";
 import convenllc from "../assets/convenllc.jpg";
 import flavourFusion from "../assets/flavour-fusion.jpg";
 import restaurantSys from "../assets/restaurants-sys.jpg";
+
 const Projects = () => {
   const projectData = [
     {
@@ -37,64 +38,69 @@ const Projects = () => {
       techStack: ["React", "Tailwind", "Flask", "PostgreSQL"],
       link: "https://restaurant-management-system-ruby-xi.vercel.app",
     },
-
-    // Add more projects as needed
   ];
 
   return (
-    <div
-      className="w-full min-h-screen flex justify-center items-center "
+    <section
       id="projects"
+      className="w-full min-h-screen flex flex-col items-center justify-start px-4 py-10 bg-[#0a192f]"
     >
-      <div className="w-full md:w-full h-[90%] p-1 md:p-5 flex flex-col ">
-        <h1 className="text-white font-bold text-lg">
+      <div className="max-w-7xl w-full flex flex-col">
+        <h2 className="text-white font-bold text-xl md:text-2xl">
           * <span className="text-[#64ffda]">Projects</span>
-        </h1>
-        <p className="text-white font-bold text-2xl my-3">
+        </h2>
+        <p className="text-white text-2xl md:text-3xl font-bold mt-2 mb-6">
           A glimpse into my past works
         </p>
-        <div className="w-full h-[90%] p-3 flex flex-col justify-center items-center md:flex-row gap-5  flex-wrap ">
+
+        <div className="w-full flex flex-wrap justify-center gap-6">
           {projectData.map((project, index) => (
             <div
               key={index}
-              className="w-full md:w-[300px] min-h-80 shadow-xl flex flex-col items-center justify-center border border-white/20 rounded-xl"
+              className="w-full md:w-[300px] bg-[#112240] border border-white/10 rounded-xl shadow-xl overflow-hidden flex flex-col"
             >
-              <div className="w-full h-40 bg-gray-300 rounded-t-lg flex justify-center items-center">
+              <div className="h-40 bg-gray-200">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover rounded-t-lg"
+                  className="w-full h-full object-cover"
                 />
               </div>
-              <div className="w-full h-1/2 p-2 text-gray-700">
-                <h3 className="text-lg font-semibold mb-2 text-gray-300">
+
+              <div className="p-4 flex flex-col flex-grow text-white">
+                <h3 className="text-lg font-semibold mb-2 text-[#64ffda]">
                   {project.title}
                 </h3>
-                <ul className="flex items-center w-full h-10 p-2 text-white gap-1">
+
+                <ul className="flex flex-wrap gap-2 mb-3 text-sm text-white/80">
                   {project.techStack.map((tech, i) => (
-                    <li key={i} className="tech-stack">
+                    <li
+                      key={i}
+                      className="bg-white/10 px-2 py-1 rounded text-xs"
+                    >
                       {tech}
                     </li>
                   ))}
                 </ul>
 
-                <p className="text-sm mb-3 text-gray-300">
+                <p className="text-sm text-white/70 flex-grow mb-4">
                   {project.description}
                 </p>
+
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-auto text-center bg-[#64ffda] text-[#0a192f] font-medium py-2 px-4 rounded hover:bg-[#52e0c4] transition"
+                >
+                  View Live
+                </a>
               </div>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-[90%] h-10 text-lg bg-[#64ffda] mb-2 rounded-md text-gray-800 flex justify-center items-center hover:bg-[#64ffda]/80 transition-colors duration-300"
-              >
-                View Live
-              </a>
             </div>
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
