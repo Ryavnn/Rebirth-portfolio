@@ -18,7 +18,7 @@ const Projects = () => {
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi88XhdL4bEyh-d6N1gndDZq-qrGLd8uALZQ&s",
         techStack: ["React", "Tailwind"],
-        link: "https://conven-build-blueprint.vercel.app/",
+        link: "https://flavour-fusion-wheat.vercel.app/",
       },
       {
         title: "Conven Build Blueprint",
